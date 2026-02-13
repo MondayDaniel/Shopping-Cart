@@ -37,8 +37,6 @@
     }
   }
 
-
-
       // Event listener
          // Event listener liking item
     heartbtn.forEach(button => {
@@ -67,7 +65,6 @@
     // Implement item delete 
     trash.forEach(button => {
       button.addEventListener('click', function() {
-
       this.closest('.card').remove();
       });
     });
